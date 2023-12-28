@@ -63,6 +63,12 @@ export default function Header() {
                                 />
                             </li>
                             <li>
+                                <CoursesLink
+                                    activeMenu={activeMenu}
+                                    changeActiveMenu={changeActiveMenu}
+                                />
+                            </li>
+                            <li>
                                 <ContactLink
                                     activeMenu={activeMenu}
                                     changeActiveMenu={changeActiveMenu}
@@ -222,7 +228,7 @@ function LogoLink({ changeActiveMenu }) {
             }}
             scrollsmooth
         >
-            <div className="sm:hidden w-[65px]">M. K. G.</div>
+            <div className="sm:hidden w-[65px]">TC</div>
             <span className="hidden sm:block">Tayyip Canbay</span>
         </Link>
     );
@@ -274,6 +280,18 @@ const ProjectLink = ({ activeMenu = '', className = '', changeActiveMenu }) => (
         onClick={changeActiveMenu}
     >
         Projects
+    </Link>
+);
+
+const CoursesLink = ({ activeMenu = '', className = '', changeActiveMenu }) => (
+    <Link
+        className={`block transition-colors hover:text-foreground/80 p-2 sm:p-0 ${
+            activeMenu == '#courses' ? 'text-foreground' : 'text-foreground/60'
+        } ${className}`}
+        href="#courses"
+        onClick={changeActiveMenu}
+    >
+        Courses
     </Link>
 );
 

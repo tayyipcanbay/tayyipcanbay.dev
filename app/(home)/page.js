@@ -5,6 +5,7 @@ import About from "@/layouts/about"
 import Resume from "@/layouts/resume"
 import Projects from "@/layouts/projects"
 import ScroolContent from "@/components/scrool-content";
+import Courses from "@/layouts/courses";
 
 export default function Page() {
   return (
@@ -17,6 +18,8 @@ export default function Page() {
 
       <Projects />
 
+      <Courses />
+      
       <Contact />
     </ScroolContent>
   )

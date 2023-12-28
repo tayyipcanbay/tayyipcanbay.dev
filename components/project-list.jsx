@@ -8,7 +8,7 @@ import Link from 'next/link';
 const staticProjects = [
     {
         id: 1,
-        imageUrl: '/char-counter.png',
+        imageUrl: '/dogfight.jpeg',
         sourceCode: '',
         liveUrl: '',
         title: 'Autonomous Air-to-Air Combat System for UAVs (Present)',
@@ -42,7 +42,7 @@ const staticProjects = [
     },
     {
         id: 2,
-        imageUrl: '/char-counter.png',
+        imageUrl: '/kandilli.jpg',
         sourceCode: '',
         liveUrl: '',
         title: 'Kandilli API',
@@ -82,7 +82,7 @@ const staticProjects = [
     },
     {
         id: 3,
-        imageUrl: '/malware-header.jpg',
+        imageUrl: '/url-shortener.png',
         title: 'Rocket Link (URL Shortener Project)',
         sourceCode: '',
         liveUrl: '',
@@ -110,7 +110,7 @@ const staticProjects = [
     },
     {
         id: 4,
-        imageUrl: '/malware-header.jpg',
+        imageUrl: '/gpt.jpg',
         title: 'TTen (Chat-GPT-Enhanced Project with Image Prompt)',
         sourceCode: '',
         liveUrl: '',
@@ -151,7 +151,7 @@ const staticProjects = [
     },
     {
         id: 5,
-        imageUrl: '/malware-header.jpg',
+        imageUrl: '/flight.jpeg',
         title: 'Flight Database',
         sourceCode: '',
         liveUrl: '',
@@ -180,7 +180,7 @@ const staticProjects = [
     },
     {
         id: 6,
-        imageUrl: '/malware-header.jpg',
+        imageUrl: '/chat.png',
         title: 'Socket Chat',
         sourceCode: '',
         liveUrl: '',

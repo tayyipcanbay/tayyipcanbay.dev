@@ -46,10 +46,13 @@ export default function EducationTimeline() {
                     <h5 className="font-medium text-base text-gray-700 dark:text-gray-300">
                         Airforce Academy
                     </h5>
-                        Engaged in theoretical aviation studies and practical training,
-                        including 18 hours of flight education with a notable 1-hour solo
-                        flight experience (Cessna 172-S), showcasing a hands-on exposure
-                        to aviation principles.
+                        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                            Engaged in theoretical aviation studies and practical training,
+                            including 18 hours of flight education with a notable 1-hour solo
+                            flight experience (Cessna 172-S), showcasing a hands-on exposure
+                            to aviation principles.
+                        </p>
+                        
                 </li>
             </ol>
         </div>
