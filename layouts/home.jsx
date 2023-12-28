@@ -33,11 +33,11 @@ export default function HomeLayout() {
                     <div className="text-4xl font-medium text-center sm:text-start">
                         Hi 👋 my name is{' '}
                         <span className="text-primary">
-                            Mustafa Kemal Gordesli
+                            Tayyip CANBAY
                         </span>
                     </div>
                     <div className="text-4xl font-medium text-center sm:text-start">
-                        I&apos;m the <span>Software Developer</span>
+                        I&apos;m a <span>Junior Software Engineer</span>
                     </div>
                     <div>
                         <KnowMoreBtn />

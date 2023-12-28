@@ -6,7 +6,7 @@ export default function SocialMediaNav({ className }) {
     return (
         <nav className={`sm:flex sm:space-x-1 items-center ${className}`}>
             <Link
-                href="https://www.linkedin.com/in/mustafakemalgordesli/"
+                href="https://www.linkedin.com/in/tayyip-canbay/"
                 target="_blank"
                 className="flex justify-center items-center h-[2.5rem] w-[2.5rem] bg-background hover:bg-accent hover:text-accent-foreground rounded"
             >
@@ -14,14 +14,14 @@ export default function SocialMediaNav({ className }) {
             </Link>
 
             <Link
-                href="https://github.com/mustafakemalgordesli"
+                href="https://github.com/tayyipcanbay"
                 target="_blank"
                 className="flex justify-center items-center h-[2.5rem] w-[2.5rem] bg-background hover:bg-accent hover:text-accent-foreground rounded"
             >
                 <GitHubLogoIcon className="h-icon w-icon" />
             </Link>
             <Link
-                href="mailto:me@mustafagordesli.com.tr?body=My mail adress"
+                href="mailto:tayyipcanbaydev@gmail.com?body=My mail adress"
                 target="_blank"
                 rel="noreferrer"
                 className="flex justify-center items-center h-[2.5rem] w-[2.5rem] bg-background hover:bg-accent hover:text-accent-foreground rounded"

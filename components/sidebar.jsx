@@ -170,7 +170,7 @@ export default function Sidebar() {
                         alt="avatar"
                     />
                     <span className="mx-2 font-medium text-gray-800 dark:text-gray-200">
-                        Mustafa K. Gordesli
+                        Tayyip Canbay
                     </span>
                 </a>
             </div>

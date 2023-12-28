@@ -11,20 +11,17 @@ export default function About() {
                 About <span className="text-primary">ME</span>
             </div>
             <p className="text-gray-600 antialiased text-xl font-light max-w-xl tracking-wider leading-8 dark:text-slate-100 px-2">
-                I am a fourth-year computer engineering student at Balıkesir
-                University, driven by an investigative mindset and a strong
-                commitment to continuous improvement. While I am still in the
-                early stages of mastering the English language, I am dedicated
-                to the learning process. My current focus lies in full stack web
-                development, where I utilize technologies such as C#, .NET Core,
-                JavaScript, Next.js and SQL Server. I predominantly craft my
-                projects using the powerful combination of .NET and React.
+                I'm a Computer Engineering student at Balikesir University with a focus
+                on Python programming, Machine Learning, and Data Science. I also
+                have experience in both Frontend and Backend. I'm proficient in English
+                and dedicated to ongoing learning, making me well-suited for projects
+                that require technical expertise and creative problem-solving.
             </p>
             <div className="gap-3 flex flex-col sm:flex-row">
                 <ViewResumeBtn />
                 <a
-                    href="/mustafa-gordesli-cv.pdf"
-                    download="mustafa-gordesli-cv"
+                    href="/TayyipCanbayResume.pdf"
+                    download="tayyip-canbay-resume"
                     className="py-2 px-10 bg-transparent border border-primary text-primary hover:text-white hover:bg-primary font-medium text-lg"
                 >
                     Download CV

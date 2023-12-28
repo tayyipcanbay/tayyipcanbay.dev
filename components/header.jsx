@@ -223,7 +223,7 @@ function LogoLink({ changeActiveMenu }) {
             scrollsmooth
         >
             <div className="sm:hidden w-[65px]">M. K. G.</div>
-            <span className="hidden sm:block">Mustafa K. Gordesli</span>
+            <span className="hidden sm:block">Tayyip Canbay</span>
         </Link>
     );
 }

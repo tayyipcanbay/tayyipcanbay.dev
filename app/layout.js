@@ -6,7 +6,7 @@ import { StoreProvider } from '@/store/store-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Mustafa K. Gordesli',
+  title: 'Tayyip Canbay',
   description: 'My personel portfolio site',
 }
 
