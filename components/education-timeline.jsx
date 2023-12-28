@@ -12,7 +12,7 @@ export default function EducationTimeline() {
                     </time>
                     <h3>
                         <Link
-                            href="https://www.balikesir.edu.tr/"
+                            href="https://www.balikesir.edu.tr/en"
                             target="_blank"
                             className="text-lg font-semibold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-600"
                         >
@@ -23,34 +23,33 @@ export default function EducationTimeline() {
                         Bachelor&apos;s degree, Computer Engineering
                     </h5>
                     <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                        {/* Get access to over 20+ pages including a dashboard
-                        layout, charts, kanban board, calendar, and pre-order
-                        E-commerce & Marketing pages. */}
+                        Currently pursuing a comprehensive curriculum in Computer
+                        Engineering, focusing on a wide range of technical subjects and
+                        skills essential for modern technology solutions.
                     </p>
                 </li>
                 <li className="px-2">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                        2016 - 2020
+                        2020 - Dropped
                     </time>
 
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                         <Link
-                            href="https://kirazal.meb.k12.tr/"
+                            href="https://hho.msu.edu.tr/Eng_default.aspx"
                             target="_blank"
                             className="text-lg font-semibold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-600"
                         >
-                            Kiraz Anatolian High School
+                            National Defense University
                         </Link>
                     </h3>
                     <h5 className="font-medium text-base text-gray-700 dark:text-gray-300">
-                        High School
+                        Airforce Academy
                     </h5>
-                    {/* <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                        All of the pages and components are first designed in
-                        Figma and we keep a parity between the two versions even
-                        as we update the project.
-                    </p> */}
+                        Engaged in theoretical aviation studies and practical training,
+                        including 18 hours of flight education with a notable 1-hour solo
+                        flight experience (Cessna 172-S), showcasing a hands-on exposure
+                        to aviation principles.
                 </li>
             </ol>
         </div>

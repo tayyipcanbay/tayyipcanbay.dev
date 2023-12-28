@@ -8,24 +8,24 @@ export default function ExperiencesTimeline() {
                 <li className="mb-4 px-2">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                        July 2023 - Aug 2023 | 1 month
+                        November 2021 - Mar 2022 | 5 month
                     </time>
                     <h3>
                         <Link
-                            href="https://trair.com.tr/"
+                            href="https://balikesir.edu.tr/"
                             target="_blank"
                             className="text-lg font-semibold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-600"
                         >
-                            Trair Software Technology Investments
+                            Balikesir University
                         </Link>
                     </h3>
                     <h5 className="font-medium text-base text-gray-700 dark:text-gray-300">
-                        Software Engineer Intern
+                        IT Intern
                     </h5>
                     <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                        {/* Get access to over 20+ pages including a dashboard
-                        layout, charts, kanban board, calendar, and pre-order
-                        E-commerce & Marketing pages. */}
+                        Completed a valuable IT internship at Balikesir University, gaining
+                        hands-on experience in supporting and maintaining IT infrastructure
+                        while contributing effectively to the university's technology initiatives.
                     </p>
                 </li>
                 <li className="px-2">
@@ -40,16 +40,17 @@ export default function ExperiencesTimeline() {
                             target="_blank"
                             className="text-lg font-semibold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-600"
                         >
-                            VBT Yazılım A.Ş
+                            Ministry of Youth and Sports
                         </Link>
                     </h3>
                     <h5 className="font-medium text-base text-gray-700 dark:text-gray-300">
-                        Software Engineer Intern
+                        Flight Simulation Pilot
                     </h5>
                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                        {/* All of the pages and components are first designed in
-                        Figma and we keep a parity between the two versions even
-                        as we update the project. */}
+                        Delivered foundational flight principles and simulation training to high
+                        school students as part of a month-long engagement with the Turkish
+                        Ministry of Youth and Sports, fostering a passion for aviation and
+                        hands-on learning.
                     </p>
                 </li>
             </ol>
