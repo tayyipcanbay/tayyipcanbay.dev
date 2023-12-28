@@ -31,12 +31,12 @@ export default function ExperiencesTimeline() {
                 <li className="px-2">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                        Jun 2022 - Aug 2022 | 2 month
+                        Jun 2021 - Aug 2021 | 1 month
                     </time>
 
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                         <Link
-                            href=" https://www.vbt.com.tr/en"
+                            href=" https://gsb.gov.tr/"
                             target="_blank"
                             className="text-lg font-semibold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-600"
                         >

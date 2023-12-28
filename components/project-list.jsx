@@ -9,27 +9,32 @@ const staticProjects = [
     {
         id: 1,
         imageUrl: '/char-counter.png',
-        sourceCode: 'https://github.com/mustafakemalgordesli/char-counter',
-        liveUrl: 'https://mustafakemalgordesli.github.io/char-counter/',
-        title: 'Character Counter',
-        content:
-            'About This word and character counter plugin developed using Html Dom allows you to count characters or words up or down.',
+        sourceCode: '',
+        liveUrl: '',
+        title: 'Autonomous Air-to-Air Combat System for UAVs (Present)',
+        content: "Developing a cutting-edge Autonomous Air-to- Air Combat System for UAVs as part of my school's final project. Utilizing TensorFlow, OpenCV, and Kalman Filter technologies to enhance UAV capabilities in air-to-air combat scenarios.",
         hastags: [
             {
                 id: 4,
-                title: 'Html5',
+                title: 'OpenCV',
                 published: true,
                 projectId: 1,
             },
             {
                 id: 5,
-                title: 'Css3',
+                title: 'Tensorflow',
                 published: true,
                 projectId: 1,
             },
             {
                 id: 6,
-                title: 'JavaScript',
+                title: 'Kalman Filter',
+                published: true,
+                projectId: 1,
+            },
+            {
+                id: 7,
+                title: 'Python',
                 published: true,
                 projectId: 1,
             },
@@ -37,30 +42,162 @@ const staticProjects = [
     },
     {
         id: 2,
-        imageUrl: '/malware-header.jpg',
-        title: 'Python Malware',
-        sourceCode: 'https://github.com/mustafakemalgordesli/python-malware',
+        imageUrl: '/char-counter.png',
+        sourceCode: '',
         liveUrl: '',
-        content:
-            'This project was developed for python training purposes and was prepared to examine how malware analysis can be done.',
+        title: 'Kandilli API',
+        content: "Created an API for Boğaziçi University's Kandilli Observatory and Earthquake Research Institute. Utilized Pandas and NumPy for data processing, and Flask for API development. The API delivers filtered real-time earthquake data and generates heatmaps based on specific criteria.",
         hastags: [
             {
-                id: 1,
+                id: 4,
                 title: 'Python',
                 published: true,
                 projectId: 2,
             },
             {
-                id: 2,
-                title: 'Keylogger',
+                id: 5,
+                title: 'Flask',
                 published: true,
                 projectId: 2,
             },
             {
-                id: 3,
-                title: 'Sqlite',
+                id: 6,
+                title: 'Pandas',
                 published: true,
                 projectId: 2,
+            },
+            {
+                id: 7,
+                title: 'Numpy',
+                published: true,
+                projectId: 2,
+            },
+            {
+                id: 7,
+                title: 'Folium',
+                published: true,
+                projectId: 2,
+            },
+        ],
+    },
+    {
+        id: 3,
+        imageUrl: '/malware-header.jpg',
+        title: 'Rocket Link (URL Shortener Project)',
+        sourceCode: '',
+        liveUrl: '',
+        content: "I spearheaded the development of a URL shortener service, allowing users to easily create accounts, manage their profiles, and streamline their links for greater accessibility and efficiency.",
+        hastags: [
+            {
+                id: 1,
+                title: 'React.JS',
+                published: true,
+                projectId: 3,
+            },
+            {
+                id: 2,
+                title: 'Node.JS',
+                published: true,
+                projectId: 3,
+            },
+            {
+                id: 3,
+                title: 'SQL',
+                published: true,
+                projectId: 3,
+            }
+        ],
+    },
+    {
+        id: 4,
+        imageUrl: '/malware-header.jpg',
+        title: 'TTen (Chat-GPT-Enhanced Project with Image Prompt)',
+        sourceCode: '',
+        liveUrl: '',
+        content:
+            "TTen, developed solely by me, combines both frontend and backend elements. It provides unrestricted access to Chat-GPT using your API key, with additional image prompt capabilities powered by Tesseract. The frontend is built with React.js, and the backend is implemented using Flask and Python.",
+        hastags: [
+            {
+                id: 1,
+                title: 'OpenAI',
+                published: true,
+                projectId: 4,
+            },
+            {
+                id: 2,
+                title: 'React.JS',
+                published: true,
+                projectId: 4,
+            },
+            {
+                id: 3,
+                title: 'Python',
+                published: true,
+                projectId: 4,
+            },
+            {
+                id: 3,
+                title: 'Flask',
+                published: true,
+                projectId: 4,
+            },
+            {
+                id: 3,
+                title: 'Tesseract',
+                published: true,
+                projectId: 4,
+            },
+        ],
+    },
+    {
+        id: 5,
+        imageUrl: '/malware-header.jpg',
+        title: 'Flight Database',
+        sourceCode: '',
+        liveUrl: '',
+        content:
+            "The flight management database project aims to create a database schema that can store information related to airports, airlines, flights, passengers, and flight delays. The purpose of this database is to facilitate the management and tracking of flights, passengers, and delays.",
+        hastags: [
+            {
+                id: 1,
+                title: 'SQL',
+                published: true,
+                projectId: 5,
+            },
+            {
+                id: 2,
+                title: 'MySQL',
+                published: true,
+                projectId: 5,
+            },
+            {
+                id: 3,
+                title: 'Oracle',
+                published: true,
+                projectId: 5,
+            },
+        ],
+    },
+    {
+        id: 6,
+        imageUrl: '/malware-header.jpg',
+        title: 'Socket Chat',
+        sourceCode: '',
+        liveUrl: '',
+        content:
+            "Our server, featuring threaded architecture, adeptly manages incoming connections, user interactions, and communication—ensuring optimal performance through parallel processing.",
+        hastags: [
+            {
+                id: 1,
+                title: 'Java',
+                published: true,
+                projectId: 6,
+            },
+            {
+                id: 2,
+                title: 'Paralel Programming',
+                published: true,
+                projectId: 6,
             },
         ],
     },
