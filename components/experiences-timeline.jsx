@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function ExperiencesTimeline() {
     return (
@@ -23,9 +23,7 @@ export default function ExperiencesTimeline() {
                         IT Intern
                     </h5>
                     <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                        Completed a valuable IT internship at Balikesir University, gaining
-                        hands-on experience in supporting and maintaining IT infrastructure
-                        while contributing effectively to the university's technology initiatives.
+                        Completed a valuable IT internship at Balikesir University, gaining hands-on experience in supporting and maintaining IT infrastructure while contributing effectively to the universitys technology initiatives.
                     </p>
                 </li>
                 <li className="px-2">
@@ -47,10 +45,7 @@ export default function ExperiencesTimeline() {
                         Flight Simulation Pilot
                     </h5>
                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                        Delivered foundational flight principles and simulation training to high
-                        school students as part of a month-long engagement with the Turkish
-                        Ministry of Youth and Sports, fostering a passion for aviation and
-                        hands-on learning.
+                        Delivered foundational flight principles and simulation training to high school students as part of a month-long engagement with the Turkish Ministry of Youth and Sports, fostering a passion for aviation and hands-on learning.
                     </p>
                 </li>
             </ol>
