@@ -1,0 +1,41 @@
+/* word-card.css */
+
+/* Word Card Container */
+.word-card {
+  background-color: #333333; /* Dark background color */
+  color: #ffffff; /* Light text color */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Word */
+.word {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Translation */
+.translation {
+  font-size: 16px;
+  color: #cccccc; /* Lighter text color */
+  margin-bottom: 10px;
+}
+
+/* Play Button */
+.play-button {
+  background-color: #007bff; /* Primary color */
+  color: #ffffff; /* Light text color */
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+  background-color: #0056b3; /* Darker primary color on hover */
+}
