@@ -2,12 +2,10 @@
 'use client';
 
 import ScroolContent from "@/components/scrool-content";
-import WordCard from "@/components/word-card";
+import WordCard from "@/components/word-card-de";
 
 
 export default function Page() {
-  // Sample words data
-  const language =  'de-DE';
 
   const wordsData = [
     { word: "Guten Morgen", translation: "Good morning" },

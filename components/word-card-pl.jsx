@@ -8,7 +8,7 @@ const WordCard = ({ word, translation, language }) => {
     const utterance = new SpeechSynthesisUtterance(word);
     
     // Set the language to Polish
-    utterance.lang = language; // Polish language code
+    utterance.lang = 'pl-PL'; // Polish language code
     
     // Set the voice to a Polish voice (if available)
     const polishVoices = window.speechSynthesis.getVoices().filter(voice => voice.lang === 'pl-PL');

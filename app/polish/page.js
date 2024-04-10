@@ -2,13 +2,10 @@
 'use client';
 
 import ScroolContent from "@/components/scrool-content";
-import WordCard from "@/components/word-card";
+import WordCard from "@/components/word-card-pl";
 
 
 export default function Page() {
-  // Sample words data
-
-  const language =  'pl-PL';
 
   const wordsData = [
     { word: "Dzień dobry", translation: "Good morning" },
